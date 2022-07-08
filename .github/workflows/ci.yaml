@@ -1,9 +1,7 @@
 name: Test pipeline
 on:
   pull_request:
-    branches: 
-      - master
-      - tests
+    branches: [master]
     
 
 jobs:
